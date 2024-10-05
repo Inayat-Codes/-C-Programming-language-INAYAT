@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+  //-----------------------//
+  int age = 25;
+  printf("Age: %d\n",age);
+  //-----------------------//
+
+  float salary = 55000.50;
+  printf("The salary is : %.2f\n",salary);
+  //-----------------------//
+
+  //char Emp_Name = 'Inayat';
+  char Emp_Name[] = "Inayat";
+  printf("The name of the employee is : %s\n",Emp_Name);
+  return 0;
+}
